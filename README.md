@@ -6,3 +6,18 @@ Measure various environmental factors more preciously and use the Internet of Th
 - Cindy
 - Melody
 - William
+
+
+# System Architecture
+- **Central Controller**: Raspberry Pi 4 connected to a router, serving as the system's hub.
+- **Sensors and Actuators**:
+  - ESP8266 (Wemos D1 R2 board)
+  - SG90 Servo Motor
+  - LED Light Strip
+  - ESP32 Cam
+  - OLED Display
+  - TDS Water Quality Sensor
+  - Water Temperature Sensor
+  - Outdoor Temperature and Humidity Sensor
+  - Water Level Sensor
+  - Water Pump
