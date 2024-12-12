@@ -25,9 +25,8 @@ Measure various environmental factors more preciously and use the Internet of Th
 
 ```mermaid
 graph TD;
-    Arduino_Uno-->LoRa(Uno);
-    LoRa(Uno)-->LoRa(Nano);
-    LoRa(Nano)-->Arduino_Nano;
+    Arduino_Uno-->LoRa;
+    LoRa-->Arduino_Nano;
     Arduino_Nano-->ESP8266;
     ESP8266-->BLYNK
 ```
