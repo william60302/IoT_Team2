@@ -29,6 +29,7 @@ graph TD;
     LoRa-->Arduino_Nano;
     Arduino_Nano-->ESP8266;
     ESP8266-->BLYNK
+    Arduino_UNO->>LoRa: Hello John, how are you?
 ```
 
 
