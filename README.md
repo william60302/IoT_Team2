@@ -33,11 +33,11 @@ graph TD;
 
 
 # Function
-| First Header  | Second Header |
+| Monitoring  | Specification |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
+| Soil Humidity | Content Cell  |
+| Air Temperature & Humidity  | Content Cell  |
+| Motion Detection | Content Cell |
 
 通訊
 感測
