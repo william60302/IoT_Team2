@@ -38,10 +38,14 @@ graph TD;
 | Soil Humidity | Content Cell  |
 | Air Temperature & Humidity  | Content Cell  |
 | Motion Detection | Content Cell |
+| Camera Supervision| Content Cell |
+| Brightness | Photoresistor |
+
 
 通訊
 感測
 功能
+能源
 資料收集
 Website
 
