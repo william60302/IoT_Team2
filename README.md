@@ -2,10 +2,10 @@
 Measure various environmental factors more preciously and use the Internet of Things (IoT) to transmit data, achieving real-time monitoring of plant growth.  Automatically control the whole greenhouse system to adjust the irrigation levels, light exposure, and temperature and humidity to optimize growth conditions.
 
 # Team Member
-- M11351015 Larry
-- M11251001 Cindy
-- M11351010 Melody
-- M11351017 William
+- M11351015 Larry 李國楨
+- M11251001 Cindy 張芊凡
+- M11351010 Melody 陳玫寧
+- M11351017 William 陳彥齊
 
 
 # System Architecture
