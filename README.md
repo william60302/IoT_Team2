@@ -18,5 +18,16 @@ Measure various environmental factors more preciously and use the Internet of Th
   - 
   - Soil Condition Sensor
   - DHT Sensor(Temperature and Humidity Sensor)
-  - Water Level Sensor
+  - PIR Motion Sensor
   - Water Pump
+ 
+
+# Function
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
+# 接線圖
+  
