@@ -66,7 +66,7 @@ Website
 
 
 # 接線圖
-## Overall Wire
+## Overall Wiring diagram
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_3.jpg)
 
 ## PIR Motion Sensor
