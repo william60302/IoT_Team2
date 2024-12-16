@@ -27,9 +27,7 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
 ### Data Transmit
 ```mermaid
 graph TD;
-    Arduino_Uno-->LoRa_Uno;
-    LoRa_Uno-->LoRa_Nano
-    LoRa_Nano-->Arduino_Nano;
+    Arduino_Uno-- LoRa -->Arduino_Nano;
     Arduino_Nano-->ESP8266;
     ESP8266-- WiFi -->BLYNK
 ```
