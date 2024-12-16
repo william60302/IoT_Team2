@@ -33,18 +33,19 @@ graph TD;
 ```
 ```mermaid
 flowchart LR
-  subgraph TOP
+  subgraph Flow Process
     direction TB
     subgraph Arduino_Board1
-        direction LL
+        direction LR
         Arduino_Uno --> LoRa_Uno
     end
     subgraph Arduino_Board2
-        direction LL
+        direction LR
         LoRa_Nano --> Arduino_Nano --> ESP8266
     end
   end
   Arduino_Board1-- Through LoRa --> Arduino_Board2
+  Arduino_Board2-- Through WiFi --> Blynk 
 
 ```
 
