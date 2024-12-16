@@ -18,7 +18,7 @@ The following chart shows all the components our group use in this project.
 | | | Jumper Wires (Male-Female) | 11 | Circuit connection components |
 | | Automatic Watering System | Water Pump | 1 | Automatic watering function |
 | | | Multi-output Power Module | 1 | Power control module |
-| | | Single-Channel Relay|1|Controls water pump
+| | | Single-Channel Relay | 1 | Controls water pump |
 | | | Soil Moisture Sensor | 1 | Detects soil moisture |
 | | | Jumper Wires (Female-Female) | 1 | Circuit connection components |
 | | | Jumper Wires (Male-Female) | 13 | Circuit connection components |
