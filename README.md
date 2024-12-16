@@ -1,6 +1,9 @@
 # IoT_Team2
 Measure various environmental factors more preciously and use the Internet of Things (IoT) to transmit data, achieving real-time monitoring of plant growth.  Automatically control the whole greenhouse system to adjust the irrigation levels, light exposure, and temperature and humidity to optimize growth conditions.
 
+# Website
+https://m11351015.wixsite.com/my-site-2/projects
+
 # Team Member
 - M11351015 Larry 李國楨
 - M11251001 Cindy 張芊凡
@@ -48,7 +51,9 @@ flowchart LR
 ```
 
 
-# Function
+# Functions
+The following charts shows the functions we aimed to put into our project at the beginning.
+
 ## Monitor
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
@@ -58,11 +63,18 @@ flowchart LR
 | Camera Supervision| Content Cell |<ul><li>- [x] </li>
 | Brightness | Photoresistor |<ul><li>- [x] </li>
 
-## Communication
-| Monitoring  | Specification | Finished |
+## Actuation
+| Actuation | Specification | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity | Content Cell  |<ul><li>- [x] </li>
 | Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
+| Motion Detection | Content Cell |<ul><li>- [x] </li>
+
+## Communication
+| Monitoring  | Specification | Finished |
+| ------------- | ------------- | ------------- |
+| LoRa | Content Cell  |<ul><li>- [x] </li>
+|  | Content Cell  |<ul><li>- [x] </li>
 
 ## Power
 | Monitoring  | Specification | Finished |
@@ -76,7 +88,7 @@ flowchart LR
 功能
 能源
 資料收集
-Website
+
 
 # 接線圖
 ## Overall Wiring diagram
