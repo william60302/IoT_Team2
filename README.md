@@ -29,7 +29,8 @@ graph TD;
     LoRa-- Send Data -->Arduino_Nano;
     Arduino_Nano-- Send Data -->ESP8266;
     ESP8266-- Send Data -->BLYNK
-
+```
+```mermaid
 flowchart LR
   subgraph TOP
     direction TB
