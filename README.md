@@ -51,11 +51,11 @@ flowchart LR
 # Function
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
-| Soil Humidity | Content Cell  |<ul><li>- [ ]</li>
-| Air Temperature & Humidity  | Content Cell  |<ul><li>- [ ] </li>
-| Motion Detection | Content Cell |<ul><li>- [ ] </li>
-| Camera Supervision| Content Cell |<ul><li>- [ ] </li>
-| Brightness | Photoresistor |<ul><li>- [ ] </li>
+| Soil Humidity | Content Cell  |<ul><li>- [x] </li>
+| Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
+| Motion Detection | Content Cell |<ul><li>- [x] </li>
+| Camera Supervision| Content Cell |<ul><li>- [x] </li>
+| Brightness | Photoresistor |<ul><li>- [x] </li>
 
 
 通訊
