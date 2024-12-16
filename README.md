@@ -35,17 +35,17 @@ graph TD;
 flowchart LR
   subgraph TOP
     direction TB
-    subgraph B1
+    subgraph Arduino_Uno
         direction RL
         i1 -->f1
     end
-    subgraph B2
+    subgraph Arduino_Nano
         direction BT
         i2 -->f2
     end
   end
   A --> TOP --> B
-  B1 --> B2
+  Arduino_Uno --> Arduino_Nano
 ```
 
 
