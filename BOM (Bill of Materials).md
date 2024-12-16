@@ -1,8 +1,7 @@
 # Bill of Materials
 The following chart shows all the components our group use in this project.
 
-![image]()
-Main System	Subsystem	Material Name	Quantity	Remarks
+| Main System | Subsystem | Material Name | Quantity | Remarks |
 Sensor System	Core Components	Arduino Uno	1	Control mainboard
 		Breadboard	1	Replaceable circuit board
 		Jumper Wires (Male-Female)	6	Basic circuit connections
@@ -31,4 +30,3 @@ Remote Transmission System		mini LoRa	1	Data transmission module
 		Jumper Wires (Male-Female)	14	Circuit connection components
 		Antenna	1	Signal transmission
 		Box	1	Internal component protection
-![image](https://github.com/user-attachments/assets/e6d72e48-47a6-44bf-94ec-9a3cd0da2a28)
