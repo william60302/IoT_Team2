@@ -44,8 +44,7 @@ flowchart LR
         i2 -->f2
     end
   end
-  A --> TOP --> B
-  Arduino_Uno --> Arduino_Nano
+  Arduino_Uno-- Through LoRa --> Arduino_Nano
 ```
 
 
