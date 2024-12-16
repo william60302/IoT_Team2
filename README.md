@@ -32,7 +32,7 @@ graph TD;
     ESP8266-- WiFi -->BLYNK
 ```
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph Flow Process
     direction TB
     subgraph Arduino_Board1
@@ -43,9 +43,13 @@ flowchart LR
         direction LR
         LoRa_Nano --> Arduino_Nano --> ESP8266
     end
+    subgraph Website
+        direction LR
+        Blynk
+    end
   end
   Arduino_Board1-- Through LoRa --> Arduino_Board2
-  Arduino_Board2-- Through WiFi --> Blynk 
+  Arduino_Board2-- Through WiFi --> Website 
 
 ```
 
