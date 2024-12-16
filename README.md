@@ -49,6 +49,7 @@ flowchart LR
 
 
 # Function
+## Monitor
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity | Content Cell  |<ul><li>- [x] </li>
@@ -57,6 +58,18 @@ flowchart LR
 | Camera Supervision| Content Cell |<ul><li>- [x] </li>
 | Brightness | Photoresistor |<ul><li>- [x] </li>
 
+## Communication
+| Monitoring  | Specification | Finished |
+| ------------- | ------------- | ------------- |
+| Soil Humidity | Content Cell  |<ul><li>- [x] </li>
+| Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
+
+## Power
+| Monitoring  | Specification | Finished |
+| ------------- | ------------- | ------------- |
+| Soil Humidity | Content Cell  |<ul><li>- [x] </li>
+| Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
+
 
 通訊
 感測
@@ -64,22 +77,6 @@ flowchart LR
 能源
 資料收集
 Website
-
-
-#
-| Task           | Time required | Assigned to   | Current Status | Finished | 
-|----------------|---------------|---------------|----------------|-----------|
-| Calendar Cache | > 5 hours  |  | in progress | - [x] ok?
-| Object Cache   | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2
-| Object Cache   | > 5 hours  |  | in progress |
-| Object Cache   | > 5 hours  |  | in progress | 
-
-
-- [x] works
-- [x] works too
-
-
-
 
 # 接線圖
 ## Overall Wiring diagram
