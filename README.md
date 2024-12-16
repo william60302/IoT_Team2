@@ -85,8 +85,8 @@ The following charts shows the functions we aimed to put into our project at the
 | Blynk | Data collect &  |<ul><li>- [x] </li>
 
 
-# 接線圖
-## Overall Wiring diagram
+# Wiring Diagram
+## Overall Diagram
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_3.jpg)
 
 ## PIR Motion Sensor
@@ -104,6 +104,7 @@ The following charts shows the functions we aimed to put into our project at the
 ## ESP8266
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
 
+# Future Work 
 
 
 
