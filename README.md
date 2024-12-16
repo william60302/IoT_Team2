@@ -29,6 +29,21 @@ graph TD;
     LoRa-- Send Data -->Arduino_Nano;
     Arduino_Nano-- Send Data -->ESP8266;
     ESP8266-- Send Data -->BLYNK
+
+flowchart LR
+  subgraph TOP
+    direction TB
+    subgraph B1
+        direction RL
+        i1 -->f1
+    end
+    subgraph B2
+        direction BT
+        i2 -->f2
+    end
+  end
+  A --> TOP --> B
+  B1 --> B2
 ```
 
 
