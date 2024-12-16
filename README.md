@@ -49,8 +49,8 @@ flowchart LR
 
 
 # Function
-| Monitoring  | Specification |
-| ------------- | ------------- |
+| Monitoring  | Specification | Finished |
+| ------------- | ------------- | ------------- |
 | Soil Humidity | Content Cell  |
 | Air Temperature & Humidity  | Content Cell  |
 | Motion Detection | Content Cell |
