@@ -24,7 +24,7 @@ The following chart shows all the components our group use in this project.
 | | | Jumper Wires (Male-Female) | 13 | Circuit connection components |
 | | | Water Container | 1 | Stores water source |
 | | | Box | 1 | Internal component protection |
-| | Remote Transmission System | | mini LoRa | 1 | Data transmission module |
+| Remote Transmission System | | mini LoRa | 1 | Data transmission module |
 | | | ESP8266 | 1 | Wi-Fi module |
 | | | OLED Display | 1 | Displays real-time data |
 | | | Arduino Nano | 1 | Secondary components controller |
