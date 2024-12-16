@@ -31,3 +31,5 @@ The following chart shows all the components our group use in this project.
 | | | Jumper Wires (Male-Female) | 14 | Circuit connection components |
 | | | Antenna | 1 | Signal transmission |
 | | | Box | 1 | Internal component protection |
+
+![image](Arduino_WIRE_pic/messageImage_1734193337601.jpg)
