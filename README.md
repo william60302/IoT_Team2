@@ -51,7 +51,7 @@ flowchart LR
 # Function
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
-| Soil Humidity | Content Cell  |<ul><li>- [ ] </li>
+| Soil Humidity | Content Cell  |<ul><li>- [ ]</li>
 | Air Temperature & Humidity  | Content Cell  |<ul><li>- [ ] </li>
 | Motion Detection | Content Cell |<ul><li>- [ ] </li>
 | Camera Supervision| Content Cell |<ul><li>- [ ] </li>
