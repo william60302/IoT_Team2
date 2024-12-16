@@ -35,16 +35,17 @@ graph TD;
 flowchart LR
   subgraph TOP
     direction TB
-    subgraph Arduino_Uno
+    subgraph Arduino_Board1
         direction RL
-        i1 -->f1
+        Arduino_Uno -->LoRa
     end
-    subgraph Arduino_Nano
-        direction BT
-        i2 -->f2
+    subgraph Arduino_Board2
+        direction RL
+        LoRa --> Arduino_Nano --> ESP8266
     end
   end
   Arduino_Uno-- Through LoRa --> Arduino_Nano
+
 ```
 
 
