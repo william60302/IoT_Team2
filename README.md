@@ -66,6 +66,25 @@ Website
 
 
 # 接線圖
+## Overall Wire
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_3.jpg)
+
+## PIR Motion Sensor
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_1.jpg)
+
+## Photoresistor
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_2.jpg)
+
+## ESP8266
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
+
+## Soil Humidity & temperature Sensor
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_6.jpg)
+
+## DHT sensor
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_7.jpg)
+
+
+
 
   
