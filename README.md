@@ -24,13 +24,14 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
   - Water Pump
  
 
-
+### Data Transmit
 ```mermaid
 graph TD;
-    Arduino_Uno-- Send Data -->LoRa;
-    LoRa-- Send Data -->Arduino_Nano;
-    Arduino_Nano-- Send Data -->ESP8266;
-    ESP8266-- Send Data -->BLYNK
+    Arduino_Uno-->LoRa(Uno);
+    LoRa(Uno)-->LoRa(Nano)
+    LoRa(Nano)-->Arduino_Nano;
+    Arduino_Nano-->ESP8266;
+    ESP8266-- WiFi -->BLYNK
 ```
 ```mermaid
 flowchart LR
