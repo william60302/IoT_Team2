@@ -51,11 +51,11 @@ flowchart LR
 # Function
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
-| Soil Humidity | Content Cell  |
-| Air Temperature & Humidity  | Content Cell  |
-| Motion Detection | Content Cell |
-| Camera Supervision| Content Cell |
-| Brightness | Photoresistor |
+| Soil Humidity | Content Cell  |<ul><li>- [ ] </li>
+| Air Temperature & Humidity  | Content Cell  |<ul><li>- [ ] </li>
+| Motion Detection | Content Cell |<ul><li>- [ ] </li>
+| Camera Supervision| Content Cell |<ul><li>- [ ] </li>
+| Brightness | Photoresistor |<ul><li>- [ ] </li>
 
 
 通訊
@@ -71,8 +71,8 @@ Website
 |----------------|---------------|---------------|----------------|-----------|
 | Calendar Cache | > 5 hours  |  | in progress | - [x] ok?
 | Object Cache   | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2
-| Object Cache   | > 5 hours  |  | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
-| Object Cache   | > 5 hours  |  | in progress | <ul><li>[ ]</li>
+| Object Cache   | > 5 hours  |  | in progress |
+| Object Cache   | > 5 hours  |  | in progress | 
 
 
 - [x] works
