@@ -1,7 +1,6 @@
 # IoT_Team2
 Measure various environmental factors more preciously and use the Internet of Things (IoT) to transmit data, achieving real-time monitoring of plant growth.  Automatically control the whole greenhouse system to adjust the irrigation levels, light exposure, and temperature and humidity to optimize growth conditions.
 
-# Website
 Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
 
 # Team Member
