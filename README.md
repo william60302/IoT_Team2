@@ -79,12 +79,10 @@ The following charts shows the functions we aimed to put into our project at the
 | Soil Humidity | Content Cell  |<ul><li>- [x] </li>
 | Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
 
-
-通訊
-感測
-功能
-能源
-資料收集
+## Data 
+| Monitoring  | Specification | Finished |
+| ------------- | ------------- | ------------- |
+| Blynk | Data collect &  |<ul><li>- [x] </li>
 
 
 # 接線圖
@@ -97,14 +95,14 @@ The following charts shows the functions we aimed to put into our project at the
 ## Photoresistor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_2.jpg)
 
-## ESP8266
-![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
-
 ## Soil Humidity & temperature Sensor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_6.jpg)
 
 ## DHT sensor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_7.jpg)
+
+## ESP8266
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
 
 
 
