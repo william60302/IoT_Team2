@@ -32,4 +32,5 @@ The following chart shows all the components our group use in this project.
 | | | Antenna | 1 | Signal transmission |
 | | | Box | 1 | Internal component protection |
 
+# Bill of Materials (Chinese Ver.)
 ![image](Arduino_WIRE_pic/messageImage_1734193337601.jpg)
