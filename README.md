@@ -31,18 +31,18 @@ flowchart TB
     direction TB
     subgraph Arduino_Board1
         direction LR
-        Arduino_Uno --> LoRa_Uno
+        Arduino_Uno --> Mini LoRa_Uno
     end
     subgraph Arduino_Board2
         direction LR
-        LoRa_Nano --> Arduino_Nano --> ESP8266
+        Mini LoRa_Nano --> Arduino_Nano --> ESP8266
     end
     subgraph Website
         direction LR
         Blynk
     end
   end
-  Arduino_Board1-- Through LoRa --> Arduino_Board2
+  Arduino_Board1-- Through Mini LoRa --> Arduino_Board2
   Arduino_Board2-- Through WiFi --> Website 
 
 ```
