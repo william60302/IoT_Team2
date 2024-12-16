@@ -66,4 +66,6 @@ Website
 
 
 # 接線圖
+![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_3.jpg)
+
   
