@@ -51,7 +51,7 @@ flowchart TB
 # Functions
 The following charts shows the functions we aimed to put into our project at the beginning.
 
-## Monitor
+### Monitor
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity | Content Cell  |<ul><li>- [x] </li>
@@ -60,26 +60,26 @@ The following charts shows the functions we aimed to put into our project at the
 | Camera Supervision| Content Cell |<ul><li>- [x] </li>
 | Brightness | Photoresistor |<ul><li>- [x] </li>
 
-## Actuation
+### Actuation
 | Actuation | Specification | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity | Content Cell  |<ul><li>- [x] </li>
 | Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
 | Motion Detection | Content Cell |<ul><li>- [x] </li>
 
-## Communication
+### Communication
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
-| LoRa | Content Cell  |<ul><li>- [x] </li>
 | WiFi | Content Cell  |<ul><li>- [x] </li>
+| LoRa | Content Cell  |<ul><li>- [x] </li>
 
-## Power
-| Monitoring  | Specification | Finished |
+### Power
+| Functions | Specification | Finished |
 | ------------- | ------------- | ------------- |
-| Soil Humidity | Content Cell  |<ul><li>- [x] </li>
-| Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
+| Power Storage | Batteries |<ul><li>- [x] </li>
+| Power Supply  | Small Solar Panel  |<ul><li>- [x] </li>
 
-## Data 
+### Data 
 | Monitoring  | Specification | Finished |
 | ------------- | ------------- | ------------- |
 | Blynk | Data collect &  |<ul><li>- [x] </li>
