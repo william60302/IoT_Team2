@@ -33,4 +33,4 @@ The following chart shows all the components our group use in this project.
 | | | Box | 1 | Internal component protection |
 
 # Bill of Materials (Chinese Ver.)
-![image](Arduino_WIRE_pic/BOM .jpg)
+![image](Arduino_WIRE_pic/BOM.jpg)
