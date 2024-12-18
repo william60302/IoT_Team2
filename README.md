@@ -52,37 +52,39 @@ flowchart TB
 The following charts shows the functions we aimed to put into our project at the beginning.
 
 ### Monitor
-| Sensor | Function | Finished |
+| Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
-| Soil Humidity | Content Cell  |<ul><li>- [x] </li>
-| Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
-| Motion Detection | Content Cell |<ul><li>- [x] </li>
-| Camera Supervision| Content Cell |<ul><li>- [x] </li>
-| Brightness | Photoresistor |<ul><li>- [x] </li>
+| Soil Humidity Sensor | Collecting Soil Humidity Data |<ul><li>- [x] </li>
+| DHT Sensor | Collecting Air Temperature & Humidity Data |<ul><li>- [x] </li>
+| PIR Sensor | Motion Detection |<ul><li>- [x] </li>
+| Photoresistor | Measuring Brightness Change |<ul><li>- [x] </li>
+| Camera | Real-time Monitoring |<ul><li>- [ ] </li>
 
 ### Actuation
-| Actuation | Specification | Finished |
+| Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
-| Soil Humidity | Content Cell  |<ul><li>- [x] </li>
-| Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
-| Motion Detection | Content Cell |<ul><li>- [x] </li>
+| Water Pump | Self Watering System |<ul><li>- [x] </li>
+| LED Light Strip | Sensor Light & Control Sunshine Duriation |<ul><li>- [x] </li>
+| OLED Display | Show Real-Time Data From Sensors |<ul><li>- [x] </li>
+| Fan | Control Air Temperature & Humidity |<ul><li>- [ ] </li>
+| Sunshade | Control Sunshine Duriation |<ul><li>- [ ] </li>
 
 ### Communication
-| Monitoring  | Specification | Finished |
+| Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
-| WiFi | Content Cell  |<ul><li>- [x] </li>
-| LoRa | Content Cell  |<ul><li>- [x] </li>
+| LoRa | Transfer Data Between Device |<ul><li>- [x] </li>
+| WiFi | Transfer Data From Device To Blynk  |<ul><li>- [x] </li>
 
 ### Power
-| Functions | Specification | Finished |
+| Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
-| Power Storage | Batteries |<ul><li>- [x] </li>
-| Power Supply  | Small Solar Panel  |<ul><li>- [x] </li>
+| Rechargeable Batteries | Power Storage |<ul><li>- [ ] </li>
+| Small Solar Panel | Power Supply |<ul><li>- [ ] </li>
 
-### Data 
-| Monitoring  | Specification | Finished |
+### Data Platform
+| Platform | Functions | Finished |
 | ------------- | ------------- | ------------- |
-| Blynk | Data collect &  |<ul><li>- [x] </li>
+| Blynk | Data Collection & Presention & Visualization  |<ul><li>- [x] </li>
 
 
 # Wiring Diagram
