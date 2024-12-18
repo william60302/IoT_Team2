@@ -1,4 +1,8 @@
 # 2024 IIoT_Smart Micro-Greenhouse
+- Planting a little green is planting a little peace—let the leaves breathe life into your busy soul.
+- Make our life better, make our home greener.
+
+# Features
 Measure various environmental data more preciously and use the Internet of Things (IoT) to transmit data, achieving real-time monitoring of plant growth. Automatically control the whole greenhouse system to adjust the irrigation levels, light exposure, and temperature and humidity to optimize growth conditions.
 
 Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
