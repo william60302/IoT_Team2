@@ -36,7 +36,7 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
   - Mini LoRa * 2 (With Antenna) 
  
 
-### Functions
+### Functions:
 The following charts shows the functions we aimed to put into our project at the beginning. 
 (The components with a checkmark in the "Finished" column are the ones we have completed in this product.)
 
@@ -75,7 +75,7 @@ The following charts shows the functions we aimed to put into our project at the
 | ------------- | ------------- | ------------- |
 | Blynk | Data Collection & Presention & Visualization  |<ul><li>- [x] </li>
 
-### Data Transmit
+### Data Transmit:
 The following diagram is the flow process of data transmit:
 ```mermaid
 flowchart TB
