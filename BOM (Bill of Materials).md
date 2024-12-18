@@ -5,7 +5,7 @@ The following chart shows all the components our group use in this project.
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Sensor System	| Core Components | Arduino Uno | 1 | Control mainboard |
 | | |Breadboard | 1 | Replaceable circuit board |
-| | | Jumper Wires (Male-Female) | 6 | Basic circuit connections |
+| | | Dupont Wires (Male-Female) | 6 | Basic circuit connections |
 | | Human Motion Detection | LED Strip | 1 | Displays sensor results |
 | | | PIR (Human Infrared Sensor) | 1 |	Detects human movement|
 | | | Dupont Wires (Male-Male) | 5 | Circuit connection components |
