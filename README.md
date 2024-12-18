@@ -132,7 +132,7 @@ The following software are needed for this product, download first!
 - CH340 : https://sparks.gogo.co.nz/ch340.html?srsltid=AfmBOoo-oroGvox_G-0aVYyVQEFKZspoib5eJGVV9Epufqb9xcQvNUEe (If necessary)
 
 ## Arduino Library
-These are the libraries you have to download first before yourun the code.
+These are the libraries you have to download first before you run the code.
 | Library | Used for | Library | Used for |
 | ------------- | ------------- | ------------- | ------------- |
 | FastLED.h | Control LED strip | DHT.h | Control DHT temperature and humidity sensor |
