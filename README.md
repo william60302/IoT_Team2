@@ -58,35 +58,7 @@ flowchart TB
   Cloud -- Through Internet --> Company
 
 ```
-```
-flowchart TB
-  subgraph Flow_Process
-    direction TB
-    subgraph Plant_Area
-        direction LR
-        Sensor_1 -- data --> Arduino_Uno
-        Sensor_2 -- data --> Arduino_Uno
-        Sensor_3 -- data --> Arduino_Uno
-        Arduino_Uno --> Mini_LoRa_Uno
-    end
-    subgraph Home
-        direction LR
-        Mini_LoRa_Nano -- receive --> Arduino_Nano -- data --> ESP8266
-    end
-    subgraph Cloud
-        direction LR
-        ESP8266 -- data --> Blynk
-    end
-    subgraph Company
-        direction LR
-        Blynk -- data --> Company_System
-    end
-  end
 
-  Plant_Area -- Through Mini_LoRa --> Home
-  Home -- Through WiFi --> Cloud
-  Cloud -- Through Internet --> Company
-```
 
 # Functions
 The following charts shows the functions we aimed to put into our project at the beginning. 
