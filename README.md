@@ -14,8 +14,9 @@ Measure various environmental data more preciously and use the Internet of Thing
 Our Website URL: https://m11351015.wixsite.com/my-site-2/projects     
 
 
-# System Architecture
-## Main Components:
+
+## System Architecture
+### Main Components:
 
 - **Central Controller**:
   - Arduino UNO Board
@@ -34,38 +35,8 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
   - ESP8266 (Wemos D1 R2 board)
   - Mini LoRa * 2 (With Antenna) 
  
-### Data Transmit
-The following diagram is the flow process of data transmit:
-```mermaid
-flowchart TB
-  subgraph Flow Process
-    direction TB
-    subgraph Plant_Area
-        direction LR
-        Sensor_1 -- data --> Arduino_Uno
-        Sensor_2 -- data --> Arduino_Uno
-        Sensor_3 -- data --> Arduino_Uno
-        Arduino_Uno -- Transmit --> Mini_LoRa_Uno
-    end
-    subgraph Home
-        direction LR
-        Mini_LoRa_Nano -- Receive --> Arduino_Nano -- Forward --> ESP8266
-    end
-    subgraph Cloud
-        direction LR
-        Blynk
-    end
-    subgraph Company
-        direction LR
-        Your_PC
-    end
-  end
-  Plant_Area -- Through Mini_LoRa --> Home
-  Home -- Through WiFi --> Cloud
-  Cloud -- Through Internet --> Company
-```
 
-# Functions
+### Functions
 The following charts shows the functions we aimed to put into our project at the beginning. 
 (The components with a checkmark in the "Finished" column are the ones we have completed in this product.)
 
@@ -103,6 +74,37 @@ The following charts shows the functions we aimed to put into our project at the
 | Platform | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Blynk | Data Collection & Presention & Visualization  |<ul><li>- [x] </li>
+
+### Data Transmit
+The following diagram is the flow process of data transmit:
+```mermaid
+flowchart TB
+  subgraph Flow Process
+    direction TB
+    subgraph Plant_Area
+        direction LR
+        Sensor_1 -- data --> Arduino_Uno
+        Sensor_2 -- data --> Arduino_Uno
+        Sensor_3 -- data --> Arduino_Uno
+        Arduino_Uno -- Transmit --> Mini_LoRa_Uno
+    end
+    subgraph Home
+        direction LR
+        Mini_LoRa_Nano -- Receive --> Arduino_Nano -- Forward --> ESP8266
+    end
+    subgraph Cloud
+        direction LR
+        Blynk
+    end
+    subgraph Company
+        direction LR
+        Your_PC
+    end
+  end
+  Plant_Area -- Through Mini_LoRa --> Home
+  Home -- Through WiFi --> Cloud
+  Cloud -- Through Internet --> Company
+```
 
 
 # Wiring Diagram
