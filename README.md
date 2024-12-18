@@ -108,7 +108,9 @@ The following charts shows the functions we aimed to put into our project at the
 
 # Software
 Arduino IDE :  https://www.arduino.cc/en/software (Sign In & Download)
+
 BLYNK :  https://blynk.io/
+
 CH340 :  https://sparks.gogo.co.nz/ch340.html?srsltid=AfmBOooBukETmSrvGbiP0iovSX3Y_5MC93GU-FoDtuYkg1C8ObeHv6HH (If necessary)
 
 # Arduino Library
