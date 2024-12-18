@@ -52,7 +52,7 @@ flowchart TB
 The following charts shows the functions we aimed to put into our project at the beginning.
 
 ### Monitor
-| Monitoring  | Specification | Finished |
+| Sensor | Function | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity | Content Cell  |<ul><li>- [x] </li>
 | Air Temperature & Humidity  | Content Cell  |<ul><li>- [x] </li>
@@ -104,7 +104,10 @@ The following charts shows the functions we aimed to put into our project at the
 ## ESP8266
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
 
-# Future Work 
+# Software
+# Arduino Library
+
+# Future Work or next goal
 
 
 
