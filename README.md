@@ -55,6 +55,7 @@ flowchart TB
         direction LR
         Your PC
     end
+
   end
   Plant Area -- Through Mini_LoRa --> Home
   Home -- Through WiFi --> Cloud
