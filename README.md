@@ -50,6 +50,10 @@ flowchart TB
         direction LR
         Blynk
     end
+    subgraph Company(Other Place)
+        direction LR
+        Your PC
+    end
   end
   Plant_Area -- Through Mini_LoRa --> Home
   Home -- Through WiFi --> Cloud 
