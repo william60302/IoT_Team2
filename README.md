@@ -40,7 +40,7 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
 The following charts shows the functions we aimed to put into our project at the beginning. 
 (The components with a checkmark in the "Finished" column are the ones we have completed in this product.)
 
-- **Monitor**
+**Monitor**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity Sensor | Collecting Soil Humidity Data |<ul><li>- [x] </li>
@@ -49,7 +49,7 @@ The following charts shows the functions we aimed to put into our project at the
 | Photoresistor | Measuring Brightness Change |<ul><li>- [x] </li>
 | Camera | Real-time Monitoring |<ul><li>- [ ] </li>
 
-- **Actuation**
+**Actuation**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Water Pump | Self Watering System |<ul><li>- [x] </li>
@@ -58,19 +58,19 @@ The following charts shows the functions we aimed to put into our project at the
 | Fan | Control Air Temperature & Humidity |<ul><li>- [ ] </li>
 | Sunshade | Control Sunshine Duriation |<ul><li>- [ ] </li>
 
-- **Communication**
+**Communication**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | LoRa | Transfer Data Between Device |<ul><li>- [x] </li>
 | WiFi | Transfer Data From Device To Blynk  |<ul><li>- [x] </li>
 
-- **Power**
+**Power**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Rechargeable Batteries | Power Storage |<ul><li>- [ ] </li>
 | Small Solar Panel | Power Supply |<ul><li>- [ ] </li>
 
-- **Data Platform**
+**Data Platform**
 | Platform | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Blynk | Data Collection & Presention & Visualization  |<ul><li>- [x] </li>
@@ -106,33 +106,32 @@ flowchart TB
   Cloud -- Through Internet --> Company
 ```
 
-
-# Wiring Diagram
-## Overall Diagram
+## Wiring Diagram
+### Overall Diagram
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_3.jpg)
 
-## PIR Motion Sensor
+### PIR Motion Sensor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_1.jpg)
 
-## Photoresistor
+### Photoresistor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_2.jpg)
 
-## Soil Humidity & temperature Sensor
+### Soil Humidity & temperature Sensor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_6.jpg)
 
-## DHT sensor
+### DHT sensor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_7.jpg)
 
-## ESP8266
+### ESP8266
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
 
-# Software
+## Software
 The following software are needed for this product, download first!
 - Arduino IDE : https://www.arduino.cc/en/software (Sign In & Download)
 - BLYNK : https://blynk.io/
 - CH340 : https://sparks.gogo.co.nz/ch340.html?srsltid=AfmBOoo-oroGvox_G-0aVYyVQEFKZspoib5eJGVV9Epufqb9xcQvNUEe (If necessary)
 
-# Arduino Library
+## Arduino Library
 These are the libraries you have to download first before yourun the code.
 | Library | Used for | Library | Used for |
 | ------------- | ------------- | ------------- | ------------- |
@@ -141,16 +140,8 @@ These are the libraries you have to download first before yourun the code.
 | Adafruit_GFX.h | Support for OLED display graphics | Adafruit_SH1106.h | Control SH1106 OLED display |
 | LoRa.h | LoRa communication functionality | SPI.h | SPI interface required for LoRa communication |
 | Wire.h | Support for I2C communication | ESP8266WiFi.h | Control ESP8266 Wi-Fi functionality |
-
-
-
-                                
-
-
-
-
-
-# Future Work 
+                            
+## Future Work 
 - Add other different kind of sensors.
 - Analyze plant requirements with machine learning models.
 - Improve and combine our product into other industries. (Example: Animal Husbandry...)
