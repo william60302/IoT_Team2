@@ -59,7 +59,7 @@ flowchart TB
   Home -- Through WiFi --> Cloud
   Cloud -- Through Internet --> Company
 ```
-```
+```mermaid
 flowchart TB
   subgraph Flow_Process
     direction TB
