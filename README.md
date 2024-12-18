@@ -116,7 +116,7 @@ flowchart TB
 ### Photoresistor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_2.jpg)
 
-### Soil Humidity & temperature Sensor
+### Soil Humidity & Temperature Sensor
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_6.jpg)
 
 ### DHT sensor
