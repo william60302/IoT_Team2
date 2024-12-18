@@ -5,7 +5,7 @@
 ## Team Member (Job Allocation)
 - M11351015 Larry 李國楨 (Software,Website)
 - M11251001 Cindy 張芊凡 (Software,PPT,Onenote)
-- M11351010 Melody 陳玫寧 (Hardware,Onenote)
+- M11351010 Melody 陳玫寧 (Hardware,Onenote,Demo Video)
 - M11351017 William 陳彥齊 (Hardware,GitHub)
   
 ## Project Description
