@@ -56,7 +56,8 @@ flowchart TB
     end
   end
   Plant_Area -- Through Mini_LoRa --> Home
-  Home -- Through WiFi --> Cloud 
+  Home -- Through WiFi --> Cloud
+  Cloud -- Through Internet --> Company
 
 ```
 
