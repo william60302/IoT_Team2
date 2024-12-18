@@ -40,7 +40,7 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
 The following charts shows the functions we aimed to put into our project at the beginning. 
 (The components with a checkmark in the "Finished" column are the ones we have completed in this product.)
 
-### Monitor
+- **Monitor**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Soil Humidity Sensor | Collecting Soil Humidity Data |<ul><li>- [x] </li>
@@ -49,7 +49,7 @@ The following charts shows the functions we aimed to put into our project at the
 | Photoresistor | Measuring Brightness Change |<ul><li>- [x] </li>
 | Camera | Real-time Monitoring |<ul><li>- [ ] </li>
 
-### Actuation
+- **Actuation**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Water Pump | Self Watering System |<ul><li>- [x] </li>
@@ -58,19 +58,19 @@ The following charts shows the functions we aimed to put into our project at the
 | Fan | Control Air Temperature & Humidity |<ul><li>- [ ] </li>
 | Sunshade | Control Sunshine Duriation |<ul><li>- [ ] </li>
 
-### Communication
+- **Communication**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | LoRa | Transfer Data Between Device |<ul><li>- [x] </li>
 | WiFi | Transfer Data From Device To Blynk  |<ul><li>- [x] </li>
 
-### Power
+- **Power**
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Rechargeable Batteries | Power Storage |<ul><li>- [ ] </li>
 | Small Solar Panel | Power Supply |<ul><li>- [ ] </li>
 
-### Data Platform
+- **Data Platform**
 | Platform | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Blynk | Data Collection & Presention & Visualization  |<ul><li>- [x] </li>
