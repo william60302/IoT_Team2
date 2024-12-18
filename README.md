@@ -38,9 +38,9 @@ flowchart TB
     direction TB
     subgraph Arduino_Board1
         direction LR
-        Sensor_1 --> Arduino_Uno
-        Sensor_2 --> Arduino_Uno
-        Sensor_3 --> Arduino_Uno
+        Sensor_1 -- data --> Arduino_Uno
+        Sensor_2 -- data --> Arduino_Uno
+        Sensor_3 -- data --> Arduino_Uno
         Arduino_Uno --> Mini_LoRa_Uno
     end
     subgraph Arduino_Board2
