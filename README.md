@@ -130,6 +130,7 @@ flowchart TB
 The following software are needed for this product, download first!
 - Arduino IDE : https://www.arduino.cc/en/software (Sign In & Download)
 - BLYNK : https://blynk.io/
+- Quick Start for Blynk: https://github.com/iiotntust/1131blynk/blob/main/README.md
 - CH340 : https://sparks.gogo.co.nz/ch340.html?srsltid=AfmBOoo-oroGvox_G-0aVYyVQEFKZspoib5eJGVV9Epufqb9xcQvNUEe (If necessary)
 
 ## Arduino Library
