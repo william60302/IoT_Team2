@@ -3,25 +3,32 @@ Measure various environmental data more preciously and use the Internet of Thing
 
 Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
 
-# Team Member
-- M11351015 Larry 李國楨
-- M11251001 Cindy 張芊凡
-- M11351010 Melody 陳玫寧
-- M11351017 William 陳彥齊
+# Team Member (Job Allocation)
+- M11351015 Larry 李國楨 (Software,Website)
+- M11251001 Cindy 張芊凡 (Software,PPT,Onenote)
+- M11351010 Melody 陳玫寧 (Hardware,Onenote)
+- M11351017 William 陳彥齊 (Hardware,GitHub)
 
 
 # System Architecture
-- **Central Controller**: Raspberry Pi 4 connected to a router, serving as the system's hub.
+## Main Components:
+
+- **Central Controller**:
+  - Arduino UNO Board
+  - Arduino Nano Board
+    
 - **Sensors and Actuators**:
-  - ESP8266 (Wemos D1 R2 board)
-  - SG90 Servo Motor
   - LED Light Strip
   - OLED Display
-  - 
-  - Soil Condition Sensor
-  - DHT Sensor(Temperature and Humidity Sensor)
+  - Photoresistor
+  - Soil Humidity Sensor
+  - DHT Sensor(Air Temperature and Humidity)
   - PIR Motion Sensor
   - Water Pump
+
+- **Communication**
+  - ESP8266 (Wemos D1 R2 board)
+  - Mini LoRa * 2 (With Antenna) 
  
 
 ### Data Transmit
