@@ -30,32 +30,29 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
   - ESP8266 (Wemos D1 R2 board)
   - Mini LoRa * 2 (With Antenna) 
  
-
 ### Data Transmit
 ```mermaid
 flowchart TB
   subgraph Flow Process
     direction TB
-    subgraph Plant Area
+    subgraph Arduino_Board1
         direction LR
         Sensor_1 -- data --> Arduino_Uno
         Sensor_2 -- data --> Arduino_Uno
         Sensor_3 -- data --> Arduino_Uno
         Arduino_Uno --> Mini_LoRa_Uno
     end
-    subgraph Home
+    subgraph Arduino_Board2
         direction LR
         Mini_LoRa_Nano --> Arduino_Nano --> ESP8266
     end
-    subgraph Cloud
+    subgraph Website
         direction LR
         Blynk
     end
   end
-
-  Plant Area -- Through Mini_LoRa --> Home
-  Home -- Through WiFi --> Cloud
-  Cloud -- Through Internet --> Company
+  Arduino_Board1-- Through Mini_LoRa --> Arduino_Board2
+  Arduino_Board2-- Through WiFi --> Website 
 
 ```
 
