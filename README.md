@@ -137,7 +137,15 @@ The following charts shows the functions we aimed to put into our project at the
 
 
 
-# Future Work or next goal
+# Future Work 
+- Add other different kind of sensors.
+- Analyze plant requirements with machine learning models.
+- Improve and combine our product into other industries. (Example: Animal Husbandry...)
+- Expand our device to extend more space to plant.
+
+
+
+
 
 
 
