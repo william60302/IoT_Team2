@@ -63,7 +63,7 @@ flowchart TB
 
 # Functions
 The following charts shows the functions we aimed to put into our project at the beginning. 
-(The items with a checkmark in the "Finished" column are the ones we have completed in this product.)
+(The components with a checkmark in the "Finished" column are the ones we have completed in this product.)
 
 ### Monitor
 | Components | Functions | Finished |
