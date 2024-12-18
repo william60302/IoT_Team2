@@ -50,7 +50,7 @@ flowchart TB
         direction LR
         Blynk
     end
-    subgraph Company(Other Place)
+    subgraph Company
         direction LR
         Your PC
     end
