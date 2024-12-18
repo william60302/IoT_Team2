@@ -113,19 +113,14 @@ The following charts shows the functions we aimed to put into our project at the
 
 # Arduino Library
 
-| Components | Functions | Finished |
-| ------------- | ------------- | ------------- 
-| FastLED.h | 控制 LED 燈條 |
-- DHT.h – 控制 DHT 溫濕度感測器。
-- BH1750.h – 控制光照度感測器。
-- Adafruit_Sensor.h – Adafruit 感測器庫。
-- Adafruit_GFX.h – OLED 顯示圖形支援。
-- Adafruit_SH1106.h – 控制 SH1106 OLED 顯示器。
-- LoRa.h – LoRa 通訊功能。
-- SPI.h – LoRa 通訊依賴的 SPI 介面。
-- Wire.h – I2C 通訊支援。
-- ESP8266WiFi.h – 控制 ESP8266 Wi-Fi 功能。
-- BlynkSimpleEsp8266.h – 支援 Blynk 遠端控制功能。
+| Library | Used for | Library | Used for |
+| ------------- | ------------- | ------------- | ------------- |
+| FastLED.h | 控制 LED 燈條 | DHT.h | 控制 DHT 溫濕度感測器 |
+| BH1750.h | 控制光照度感測器 | Adafruit_Sensor.h | Adafruit 感測器庫 |
+| Adafruit_GFX.h | OLED 顯示圖形支援 | Adafruit_SH1106.h | 控制 SH1106 OLED 顯示器 |
+| LoRa.h | LoRa 通訊功能 | SPI.h | LoRa 通訊依賴的 SPI 介面 |
+| Wire.h | I2C 通訊支援 | ESP8266WiFi.h | 控制 ESP8266 Wi-Fi 功能 |
+| BlynkSimpleEsp8266.h | 支援 Blynk 遠端控制功能 |
 
 
 - **FastLED.h** – Control LED strip.
