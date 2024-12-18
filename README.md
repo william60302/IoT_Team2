@@ -40,11 +40,11 @@ flowchart TB
         Sensor_1 -- data --> Arduino_Uno
         Sensor_2 -- data --> Arduino_Uno
         Sensor_3 -- data --> Arduino_Uno
-        Arduino_Uno --> Mini_LoRa_Uno
+        Arduino_Uno -- Transmit --> Mini_LoRa_Uno
     end
     subgraph Home
         direction LR
-        Mini_LoRa_Nano --> Arduino_Nano --> ESP8266
+        Mini_LoRa_Nano -- Receive --> Arduino_Nano -- Forward --> ESP8266
     end
     subgraph Cloud
         direction LR
