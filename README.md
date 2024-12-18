@@ -121,12 +121,13 @@ The following charts shows the functions we aimed to put into our project at the
 ![image](Arduino_WIRE_pic/LINE_ALBUM_接線圖_241216_4.jpg)
 
 # Software
+The following software are needed for this product, download first!
 - Arduino IDE : https://www.arduino.cc/en/software (Sign In & Download)
 - BLYNK : https://blynk.io/
 - CH340 : https://sparks.gogo.co.nz/ch340.html?srsltid=AfmBOoo-oroGvox_G-0aVYyVQEFKZspoib5eJGVV9Epufqb9xcQvNUEe (If necessary)
 
 # Arduino Library
-
+These are the libraries you have to download first before yourun the code.
 | Library | Used for | Library | Used for |
 | ------------- | ------------- | ------------- | ------------- |
 | FastLED.h | Control LED strip | DHT.h | Control DHT temperature and humidity sensor |
