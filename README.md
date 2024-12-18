@@ -35,24 +35,24 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
 flowchart TB
   subgraph Flow Process
     direction TB
-    subgraph Arduino_Board1
+    subgraph Plant_Area
         direction LR
         Sensor_1 -- data --> Arduino_Uno
         Sensor_2 -- data --> Arduino_Uno
         Sensor_3 -- data --> Arduino_Uno
         Arduino_Uno --> Mini_LoRa_Uno
     end
-    subgraph Arduino_Board2
+    subgraph Home
         direction LR
         Mini_LoRa_Nano --> Arduino_Nano --> ESP8266
     end
-    subgraph Website
+    subgraph Cloud
         direction LR
         Blynk
     end
   end
-  Arduino_Board1-- Through Mini_LoRa --> Arduino_Board2
-  Arduino_Board2-- Through WiFi --> Website 
+  Plant_Area -- Through Mini_LoRa --> Home
+  Home -- Through WiFi --> Cloud 
 
 ```
 
