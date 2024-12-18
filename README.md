@@ -51,7 +51,8 @@ flowchart TB
         direction LR
         Blynk
     end
-end
+  end
+
   Plant Area -- Through Mini_LoRa --> Home
   Home -- Through WiFi --> Cloud
   Cloud -- Through Internet --> Company
