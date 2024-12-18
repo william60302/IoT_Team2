@@ -53,7 +53,7 @@ The following charts shows the functions we aimed to put into our project at the
 | Components | Functions | Finished |
 | ------------- | ------------- | ------------- |
 | Water Pump | Self Watering System |<ul><li>- [x] </li>
-| LED Light Strip | Sensor Light & Control Sunshine Duriation |<ul><li>- [x] </li>
+| LED Light Strip | Sensor Light & Sunlight Compensation |<ul><li>- [x] </li>
 | OLED Display | Show Real-Time Data From Sensors |<ul><li>- [x] </li>
 | Fan | Control Air Temperature & Humidity |<ul><li>- [ ] </li>
 | Sunshade | Control Sunshine Duriation |<ul><li>- [ ] </li>
