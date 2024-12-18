@@ -52,6 +52,7 @@ flowchart TB
         Blynk
     end
   end
+
   Plant Area -- Through Mini_LoRa --> Home
   Home -- Through WiFi --> Cloud
   Cloud -- Through Internet --> Company
