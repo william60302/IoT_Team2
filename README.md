@@ -52,7 +52,7 @@ flowchart TB
     end
     subgraph Company
         direction LR
-        Your PC
+        Your_PC
     end
   end
   Plant_Area -- Through Mini_LoRa --> Home
