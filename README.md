@@ -1,17 +1,17 @@
 # 2024 IIoT_Smart Micro-Greenhouse
-- Planting a little green is planting a little peace—let the leaves breathe life into your busy soul.
-- Make our life better, make our home greener.
+"Make our life better, Make our city greener."
+"Planting a little green is planting a little peace—let the leaves breathe life into your busy soul."
 
-# Features
-Measure various environmental data more preciously and use the Internet of Things (IoT) to transmit data, achieving real-time monitoring of plant growth. Automatically control the whole greenhouse system to adjust the irrigation levels, light exposure, and temperature and humidity to optimize growth conditions.
-
-Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
-
-# Team Member (Job Allocation)
+## Team Member (Job Allocation)
 - M11351015 Larry 李國楨 (Software,Website)
 - M11251001 Cindy 張芊凡 (Software,PPT,Onenote)
 - M11351010 Melody 陳玫寧 (Hardware,Onenote)
 - M11351017 William 陳彥齊 (Hardware,GitHub)
+  
+## Project Description
+Measure various environmental data more preciously and use the Internet of Things (IoT) to transmit data, achieving real-time monitoring of plant growth. Automatically control the whole greenhouse system to adjust the irrigation levels, light exposure, and temperature and humidity to optimize growth conditions.
+
+Our Website URL: https://m11351015.wixsite.com/my-site-2/projects     
 
 
 # System Architecture
@@ -139,6 +139,12 @@ These are the libraries you have to download first before yourun the code.
 | Adafruit_GFX.h | Support for OLED display graphics | Adafruit_SH1106.h | Control SH1106 OLED display |
 | LoRa.h | LoRa communication functionality | SPI.h | SPI interface required for LoRa communication |
 | Wire.h | Support for I2C communication | ESP8266WiFi.h | Control ESP8266 Wi-Fi functionality |
+
+
+
+                                
+
+
 
 
 
