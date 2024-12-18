@@ -1,5 +1,5 @@
 # 2024 IIoT_Smart Micro-Greenhouse
-"Make our life better, Make our city greener."
+"Make our life better, Make our city greener."                                                     
 "Planting a little green is planting a little peace—let the leaves breathe life into your busy soul."
 
 ## Team Member (Job Allocation)
