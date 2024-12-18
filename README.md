@@ -75,6 +75,7 @@ The following charts shows the functions we aimed to put into our project at the
 | ------------- | ------------- | ------------- |
 | Blynk | Data Collection & Presention & Visualization  |<ul><li>- [x] </li>
 
+
 ### Data Transmit:
 The following diagram is the flow process of data transmit:
 ```mermaid
