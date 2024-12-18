@@ -31,6 +31,7 @@ Our Website URL: https://m11351015.wixsite.com/my-site-2/projects
   - Mini LoRa * 2 (With Antenna) 
  
 ### Data Transmit
+The following diagram is the flow process of data transmit:
 ```mermaid
 flowchart TB
   subgraph Flow Process
@@ -55,35 +56,6 @@ flowchart TB
         Your_PC
     end
   end
-  Plant_Area -- Through Mini_LoRa --> Home
-  Home -- Through WiFi --> Cloud
-  Cloud -- Through Internet --> Company
-```
-```mermaid
-flowchart TB
-  subgraph Flow_Process
-    direction TB
-    subgraph Plant_Area
-        direction LR
-        Sensor_1 -- data --> Arduino_Uno
-        Sensor_2 -- data --> Arduino_Uno
-        Sensor_3 -- data --> Arduino_Uno
-        Arduino_Uno -- transmit --> Mini_LoRa_Uno
-    end
-    subgraph Home
-        direction LR
-        Mini_LoRa_Nano -- receive --> Arduino_Nano -- forward --> ESP8266
-    end
-    subgraph Cloud
-        direction LR
-        ESP8266 -- data --> Blynk
-    end
-    subgraph Company
-        direction LR
-        Blynk -- data --> Company_System
-    end
-  end
-
   Plant_Area -- Through Mini_LoRa --> Home
   Home -- Through WiFi --> Cloud
   Cloud -- Through Internet --> Company
